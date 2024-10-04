@@ -25,6 +25,7 @@ let bi = 14578727021475n //Bigint type
 console.log(bi, typeof(bi))
 
 //There are 3 non primitive data types
+//call by reference
 
 let a = [1,5,7,6,98,10]  //array type
 console.log(a, typeof(a))
@@ -41,3 +42,17 @@ let func = function addNumber(){
     return console.log('hello')
 } //function object
 console.log(func, typeof(func))
+
+
+
+
+//==============================================================================================
+//Memory Allocation
+//Stack (for primitive typr)
+//Heap (for non-primitive type)
+
+let fname = 'pranjal'
+let lname = 'srivastav'
+console.log(fname+ " "+lname) //out dated use of this syntax
+
+console.log(`my name is ${fname} ${lname}`) //modern use of this syntax, easy to apply method on it
